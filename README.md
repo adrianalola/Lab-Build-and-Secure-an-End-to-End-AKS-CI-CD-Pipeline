@@ -20,6 +20,8 @@ The goal of this project was to build and secure a modern Kubernetes deployment 
 
 # 🏗️ Architecture
 
+<img width="728" height="590" alt="Captura de pantalla 2026-06-07 a la(s) 12 48 55" src="https://github.com/user-attachments/assets/f65d6631-3b79-4171-86e2-5584f0113ac7" />
+
 The solution uses:
 
 - **AKS** for Kubernetes orchestration
@@ -93,10 +95,13 @@ The cluster configuration was scanned for:
 ## Argo CD Deployment
 - Healthy application state
 - Automatic synchronization enabled
+<img width="914" height="449" alt="Captura de pantalla 2026-06-07 a la(s) 17 47 24" src="https://github.com/user-attachments/assets/9b2a01e3-46f1-4226-a6d0-70cfe9111b84" />
 
 ## Kubescape Security Scan
 - Kubernetes posture analysis
 - Workload security findings
+<img width="1252" height="687" alt="Captura de pantalla 2026-06-07 a la(s) 15 38 08" src="https://github.com/user-attachments/assets/4ee83435-74ee-4d74-8ac2-a78207f1b974" />
+
 
 ## Architecture Diagram
 - AKS + Argo CD + ACR + GitHub integration
